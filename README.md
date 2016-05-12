@@ -9,3 +9,6 @@ After downloading a image we are updating table view with following lines:
     
     [self.tblStoryCardView beginUpdates];
     [self.tblStoryCardView endUpdates];
+    
+    
+We are using SDWebCAche image for downloading images.
