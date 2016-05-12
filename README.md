@@ -1,5 +1,8 @@
 # Dynamic-Table-Height
 
+![Demo] (https://cloud.githubusercontent.com/assets/19161360/15205831/330319be-1838-11e6-8ce7-e8db3943f113.gif)
+
+
 This POC is related to set table cell height according to downloaded image.
 If user taps on a cell then application is navigated to description screen where we are setting image and text height dynamucaly.
 
