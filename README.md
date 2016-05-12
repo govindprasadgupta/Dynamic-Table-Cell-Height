@@ -26,3 +26,4 @@ To get a text height we are using following method:
     
     return labelRect.size;
 }
+
