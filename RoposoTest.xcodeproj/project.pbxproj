@@ -9,10 +9,28 @@
 /* Begin PBXBuildFile section */
 		0DA4112E1CD841A400A8F86F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4112D1CD841A400A8F86F /* main.m */; };
 		0DA411311CD841A400A8F86F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411301CD841A400A8F86F /* AppDelegate.m */; };
-		0DA411341CD841A400A8F86F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411331CD841A400A8F86F /* ViewController.m */; };
-		0DA411371CD841A400A8F86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411351CD841A400A8F86F /* Main.storyboard */; };
 		0DA411391CD841A400A8F86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411381CD841A400A8F86F /* Assets.xcassets */; };
-		0DA4113C1CD841A400A8F86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA4113A1CD841A400A8F86F /* LaunchScreen.storyboard */; };
+		0DA411591CD843A100A8F86F /* RoposoUser+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411561CD843A100A8F86F /* RoposoUser+Helper.m */; };
+		0DA4115A1CD843A100A8F86F /* RoposoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411581CD843A100A8F86F /* RoposoUser.m */; };
+		0DA411671CD844DE00A8F86F /* InputData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411661CD844DE00A8F86F /* InputData.json */; };
+		0DA411701CD8512000A8F86F /* BusinessUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4116F1CD8512000A8F86F /* BusinessUtility.m */; };
+		0DA411751CD853B500A8F86F /* StoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411731CD853B500A8F86F /* StoryListViewController.m */; };
+		0DA411761CD853B500A8F86F /* StoryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411741CD853B500A8F86F /* StoryListViewController.xib */; };
+		0DA411791CD8780200A8F86F /* StoryCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411781CD8780200A8F86F /* StoryCard.m */; };
+		0DA4117C1CD87FE400A8F86F /* StoryCard+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4117B1CD87FE400A8F86F /* StoryCard+Helper.m */; };
+		0DA4117F1CD8849100A8F86F /* FileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4117E1CD8849100A8F86F /* FileUtility.m */; };
+		0DA4118E1CD8DEEE00A8F86F /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4118D1CD8DEEE00A8F86F /* BaseTableViewCell.m */; };
+		0DA411981CD8ED1F00A8F86F /* SDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411971CD8ED1F00A8F86F /* SDImageView.m */; };
+		0DA411A11CD9199700A8F86F /* StoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411A01CD9199700A8F86F /* StoryDetailViewController.m */; };
+		0DA411A31CD919B700A8F86F /* StoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411A21CD919B700A8F86F /* StoryDetailViewController.xib */; };
+		0DA411B01CD99D7400A8F86F /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411AF1CD99D7400A8F86F /* NSString+Utility.m */; };
+		0DA411BF1CDA15AB00A8F86F /* StoryDetailTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411B61CDA15AB00A8F86F /* StoryDetailTableCell.m */; };
+		0DA411C01CDA15AB00A8F86F /* StoryDetailTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411B71CDA15AB00A8F86F /* StoryDetailTableCell.xib */; };
+		0DA411C11CDA15AB00A8F86F /* UserDetailTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411B91CDA15AB00A8F86F /* UserDetailTableCell.m */; };
+		0DA411C21CDA15AB00A8F86F /* UserDetailTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411BA1CDA15AB00A8F86F /* UserDetailTableCell.xib */; };
+		0DA411C31CDA15AB00A8F86F /* StoryCardTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA411BD1CDA15AB00A8F86F /* StoryCardTableCell.m */; };
+		0DA411C41CDA15AB00A8F86F /* StoryCardTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA411BE1CDA15AB00A8F86F /* StoryCardTableCell.xib */; };
+		63D51143D884F2010C9A0C87 /* libPods-RoposoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF95AC3C2866C8D7A5284 /* libPods-RoposoTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +38,48 @@
 		0DA4112D1CD841A400A8F86F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DA4112F1CD841A400A8F86F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DA411301CD841A400A8F86F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DA411321CD841A400A8F86F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0DA411331CD841A400A8F86F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0DA411361CD841A400A8F86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DA411381CD841A400A8F86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0DA4113B1CD841A400A8F86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA4113D1CD841A400A8F86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA411551CD843A100A8F86F /* RoposoUser+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RoposoUser+Helper.h"; sourceTree = "<group>"; };
+		0DA411561CD843A100A8F86F /* RoposoUser+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RoposoUser+Helper.m"; sourceTree = "<group>"; };
+		0DA411571CD843A100A8F86F /* RoposoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoUser.h; sourceTree = "<group>"; };
+		0DA411581CD843A100A8F86F /* RoposoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoUser.m; sourceTree = "<group>"; };
+		0DA411661CD844DE00A8F86F /* InputData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputData.json; sourceTree = "<group>"; };
+		0DA4116B1CD84EB400A8F86F /* RoposoDOConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoDOConstant.h; sourceTree = "<group>"; };
+		0DA4116E1CD8512000A8F86F /* BusinessUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessUtility.h; sourceTree = "<group>"; };
+		0DA4116F1CD8512000A8F86F /* BusinessUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessUtility.m; sourceTree = "<group>"; };
+		0DA411721CD853B500A8F86F /* StoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryListViewController.h; sourceTree = "<group>"; };
+		0DA411731CD853B500A8F86F /* StoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryListViewController.m; sourceTree = "<group>"; };
+		0DA411741CD853B500A8F86F /* StoryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryListViewController.xib; sourceTree = "<group>"; };
+		0DA411771CD8780200A8F86F /* StoryCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCard.h; sourceTree = "<group>"; };
+		0DA411781CD8780200A8F86F /* StoryCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCard.m; sourceTree = "<group>"; };
+		0DA4117A1CD87FE400A8F86F /* StoryCard+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StoryCard+Helper.h"; sourceTree = "<group>"; };
+		0DA4117B1CD87FE400A8F86F /* StoryCard+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StoryCard+Helper.m"; sourceTree = "<group>"; };
+		0DA4117D1CD8849100A8F86F /* FileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtility.h; sourceTree = "<group>"; };
+		0DA4117E1CD8849100A8F86F /* FileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtility.m; sourceTree = "<group>"; };
+		0DA411821CD8A98300A8F86F /* FileConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileConstant.h; sourceTree = "<group>"; };
+		0DA4118C1CD8DEEE00A8F86F /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		0DA4118D1CD8DEEE00A8F86F /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		0DA411961CD8ED1F00A8F86F /* SDImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageView.h; sourceTree = "<group>"; };
+		0DA411971CD8ED1F00A8F86F /* SDImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageView.m; sourceTree = "<group>"; };
+		0DA411991CD8F1CF00A8F86F /* UIStringConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStringConstant.h; sourceTree = "<group>"; };
+		0DA4119F1CD9199700A8F86F /* StoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryDetailViewController.h; sourceTree = "<group>"; };
+		0DA411A01CD9199700A8F86F /* StoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryDetailViewController.m; sourceTree = "<group>"; };
+		0DA411A21CD919B700A8F86F /* StoryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailViewController.xib; sourceTree = "<group>"; };
+		0DA411AE1CD99D7400A8F86F /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		0DA411AF1CD99D7400A8F86F /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		0DA411B51CDA15AB00A8F86F /* StoryDetailTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryDetailTableCell.h; sourceTree = "<group>"; };
+		0DA411B61CDA15AB00A8F86F /* StoryDetailTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryDetailTableCell.m; sourceTree = "<group>"; };
+		0DA411B71CDA15AB00A8F86F /* StoryDetailTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailTableCell.xib; sourceTree = "<group>"; };
+		0DA411B81CDA15AB00A8F86F /* UserDetailTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailTableCell.h; sourceTree = "<group>"; };
+		0DA411B91CDA15AB00A8F86F /* UserDetailTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailTableCell.m; sourceTree = "<group>"; };
+		0DA411BA1CDA15AB00A8F86F /* UserDetailTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailTableCell.xib; sourceTree = "<group>"; };
+		0DA411BC1CDA15AB00A8F86F /* StoryCardTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCardTableCell.h; sourceTree = "<group>"; };
+		0DA411BD1CDA15AB00A8F86F /* StoryCardTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCardTableCell.m; sourceTree = "<group>"; };
+		0DA411BE1CDA15AB00A8F86F /* StoryCardTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryCardTableCell.xib; sourceTree = "<group>"; };
+		213EF95AC3C2866C8D7A5284 /* libPods-RoposoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoposoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDD5CAE5B2A211971697B5 /* Pods-RoposoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoposoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoposoTest/Pods-RoposoTest.release.xcconfig"; sourceTree = "<group>"; };
+		ED9771AFF19A6B58EA6523B4 /* Pods-RoposoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoposoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoposoTest/Pods-RoposoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D51143D884F2010C9A0C87 /* libPods-RoposoTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +99,8 @@
 			children = (
 				0DA4112B1CD841A400A8F86F /* RoposoTest */,
 				0DA4112A1CD841A400A8F86F /* Products */,
+				DD9796A61A0B5A4838F024BF /* Pods */,
+				A2DB82C69E347D6CEDE6C887 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +115,13 @@
 		0DA4112B1CD841A400A8F86F /* RoposoTest */ = {
 			isa = PBXGroup;
 			children = (
+				0DA411651CD844AB00A8F86F /* Utility Class */,
+				0DA411501CD8438600A8F86F /* Model Objects */,
+				0DA4115B1CD8448B00A8F86F /* Resources */,
+				0DA4115C1CD8448B00A8F86F /* User Interface */,
 				0DA4112F1CD841A400A8F86F /* AppDelegate.h */,
 				0DA411301CD841A400A8F86F /* AppDelegate.m */,
-				0DA411321CD841A400A8F86F /* ViewController.h */,
-				0DA411331CD841A400A8F86F /* ViewController.m */,
-				0DA411351CD841A400A8F86F /* Main.storyboard */,
 				0DA411381CD841A400A8F86F /* Assets.xcassets */,
-				0DA4113A1CD841A400A8F86F /* LaunchScreen.storyboard */,
 				0DA4113D1CD841A400A8F86F /* Info.plist */,
 				0DA4112C1CD841A400A8F86F /* Supporting Files */,
 			);
@@ -79,6 +136,184 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0DA411501CD8438600A8F86F /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411511CD8438600A8F86F /* Contants */,
+				0DA411521CD8438600A8F86F /* Domain Objects */,
+			);
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		0DA411511CD8438600A8F86F /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4116B1CD84EB400A8F86F /* RoposoDOConstant.h */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		0DA411521CD8438600A8F86F /* Domain Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411531CD8438600A8F86F /* Story Domain Object */,
+				0DA411541CD8438600A8F86F /* User Donaim Object */,
+			);
+			path = "Domain Objects";
+			sourceTree = "<group>";
+		};
+		0DA411531CD8438600A8F86F /* Story Domain Object */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411771CD8780200A8F86F /* StoryCard.h */,
+				0DA411781CD8780200A8F86F /* StoryCard.m */,
+				0DA4117A1CD87FE400A8F86F /* StoryCard+Helper.h */,
+				0DA4117B1CD87FE400A8F86F /* StoryCard+Helper.m */,
+			);
+			path = "Story Domain Object";
+			sourceTree = "<group>";
+		};
+		0DA411541CD8438600A8F86F /* User Donaim Object */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411571CD843A100A8F86F /* RoposoUser.h */,
+				0DA411581CD843A100A8F86F /* RoposoUser.m */,
+				0DA411551CD843A100A8F86F /* RoposoUser+Helper.h */,
+				0DA411561CD843A100A8F86F /* RoposoUser+Helper.m */,
+			);
+			path = "User Donaim Object";
+			sourceTree = "<group>";
+		};
+		0DA4115B1CD8448B00A8F86F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411661CD844DE00A8F86F /* InputData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0DA4115C1CD8448B00A8F86F /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4115D1CD8448B00A8F86F /* Contants */,
+				0DA4115E1CD8448B00A8F86F /* Custom UI */,
+				0DA4115F1CD8448B00A8F86F /* View Controllers */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		0DA4115D1CD8448B00A8F86F /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411821CD8A98300A8F86F /* FileConstant.h */,
+				0DA411991CD8F1CF00A8F86F /* UIStringConstant.h */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		0DA4115E1CD8448B00A8F86F /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411941CD8ECB600A8F86F /* Custom Control */,
+				0DA4118B1CD8CC3500A8F86F /* Custom Table Cell */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		0DA4115F1CD8448B00A8F86F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411711CD8539900A8F86F /* Story Controllers */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0DA411651CD844AB00A8F86F /* Utility Class */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4116E1CD8512000A8F86F /* BusinessUtility.h */,
+				0DA4116F1CD8512000A8F86F /* BusinessUtility.m */,
+				0DA4117D1CD8849100A8F86F /* FileUtility.h */,
+				0DA4117E1CD8849100A8F86F /* FileUtility.m */,
+				0DA411AE1CD99D7400A8F86F /* NSString+Utility.h */,
+				0DA411AF1CD99D7400A8F86F /* NSString+Utility.m */,
+			);
+			path = "Utility Class";
+			sourceTree = "<group>";
+		};
+		0DA411711CD8539900A8F86F /* Story Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411721CD853B500A8F86F /* StoryListViewController.h */,
+				0DA411731CD853B500A8F86F /* StoryListViewController.m */,
+				0DA411741CD853B500A8F86F /* StoryListViewController.xib */,
+				0DA4119F1CD9199700A8F86F /* StoryDetailViewController.h */,
+				0DA411A01CD9199700A8F86F /* StoryDetailViewController.m */,
+				0DA411A21CD919B700A8F86F /* StoryDetailViewController.xib */,
+			);
+			path = "Story Controllers";
+			sourceTree = "<group>";
+		};
+		0DA4118B1CD8CC3500A8F86F /* Custom Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411BB1CDA15AB00A8F86F /* Story List Table Cell */,
+				0DA411B41CDA15AB00A8F86F /* Story Detail Table Cell */,
+				0DA4118C1CD8DEEE00A8F86F /* BaseTableViewCell.h */,
+				0DA4118D1CD8DEEE00A8F86F /* BaseTableViewCell.m */,
+			);
+			path = "Custom Table Cell";
+			sourceTree = "<group>";
+		};
+		0DA411941CD8ECB600A8F86F /* Custom Control */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411961CD8ED1F00A8F86F /* SDImageView.h */,
+				0DA411971CD8ED1F00A8F86F /* SDImageView.m */,
+			);
+			path = "Custom Control";
+			sourceTree = "<group>";
+		};
+		0DA411B41CDA15AB00A8F86F /* Story Detail Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411B51CDA15AB00A8F86F /* StoryDetailTableCell.h */,
+				0DA411B61CDA15AB00A8F86F /* StoryDetailTableCell.m */,
+				0DA411B71CDA15AB00A8F86F /* StoryDetailTableCell.xib */,
+				0DA411B81CDA15AB00A8F86F /* UserDetailTableCell.h */,
+				0DA411B91CDA15AB00A8F86F /* UserDetailTableCell.m */,
+				0DA411BA1CDA15AB00A8F86F /* UserDetailTableCell.xib */,
+			);
+			path = "Story Detail Table Cell";
+			sourceTree = "<group>";
+		};
+		0DA411BB1CDA15AB00A8F86F /* Story List Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0DA411BC1CDA15AB00A8F86F /* StoryCardTableCell.h */,
+				0DA411BD1CDA15AB00A8F86F /* StoryCardTableCell.m */,
+				0DA411BE1CDA15AB00A8F86F /* StoryCardTableCell.xib */,
+			);
+			path = "Story List Table Cell";
+			sourceTree = "<group>";
+		};
+		A2DB82C69E347D6CEDE6C887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213EF95AC3C2866C8D7A5284 /* libPods-RoposoTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9796A61A0B5A4838F024BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9771AFF19A6B58EA6523B4 /* Pods-RoposoTest.debug.xcconfig */,
+				31CDD5CAE5B2A211971697B5 /* Pods-RoposoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DA411401CD841A400A8F86F /* Build configuration list for PBXNativeTarget "RoposoTest" */;
 			buildPhases = (
+				7FCF418AD45FD324DB2EE100 /* Check Pods Manifest.lock */,
 				0DA411251CD841A400A8F86F /* Sources */,
 				0DA411261CD841A400A8F86F /* Frameworks */,
 				0DA411271CD841A400A8F86F /* Resources */,
+				CB7A203EC6A85430028C4BD4 /* Embed Pods Frameworks */,
+				A7C0A8A78E3BE674E01C1807 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +374,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA4113C1CD841A400A8F86F /* LaunchScreen.storyboard in Resources */,
+				0DA411671CD844DE00A8F86F /* InputData.json in Resources */,
+				0DA411C41CDA15AB00A8F86F /* StoryCardTableCell.xib in Resources */,
+				0DA411761CD853B500A8F86F /* StoryListViewController.xib in Resources */,
+				0DA411C21CDA15AB00A8F86F /* UserDetailTableCell.xib in Resources */,
+				0DA411C01CDA15AB00A8F86F /* StoryDetailTableCell.xib in Resources */,
+				0DA411A31CD919B700A8F86F /* StoryDetailViewController.xib in Resources */,
 				0DA411391CD841A400A8F86F /* Assets.xcassets in Resources */,
-				0DA411371CD841A400A8F86F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FCF418AD45FD324DB2EE100 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C0A8A78E3BE674E01C1807 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoposoTest/Pods-RoposoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7A203EC6A85430028C4BD4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoposoTest/Pods-RoposoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DA411251CD841A400A8F86F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA411341CD841A400A8F86F /* ViewController.m in Sources */,
+				0DA4118E1CD8DEEE00A8F86F /* BaseTableViewCell.m in Sources */,
+				0DA411981CD8ED1F00A8F86F /* SDImageView.m in Sources */,
+				0DA411C31CDA15AB00A8F86F /* StoryCardTableCell.m in Sources */,
+				0DA411701CD8512000A8F86F /* BusinessUtility.m in Sources */,
+				0DA411B01CD99D7400A8F86F /* NSString+Utility.m in Sources */,
 				0DA411311CD841A400A8F86F /* AppDelegate.m in Sources */,
+				0DA411751CD853B500A8F86F /* StoryListViewController.m in Sources */,
+				0DA4117C1CD87FE400A8F86F /* StoryCard+Helper.m in Sources */,
+				0DA4115A1CD843A100A8F86F /* RoposoUser.m in Sources */,
+				0DA411A11CD9199700A8F86F /* StoryDetailViewController.m in Sources */,
+				0DA4117F1CD8849100A8F86F /* FileUtility.m in Sources */,
+				0DA411C11CDA15AB00A8F86F /* UserDetailTableCell.m in Sources */,
+				0DA411791CD8780200A8F86F /* StoryCard.m in Sources */,
+				0DA411BF1CDA15AB00A8F86F /* StoryDetailTableCell.m in Sources */,
 				0DA4112E1CD841A400A8F86F /* main.m in Sources */,
+				0DA411591CD843A100A8F86F /* RoposoUser+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0DA411351CD841A400A8F86F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DA411361CD841A400A8F86F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0DA4113A1CD841A400A8F86F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DA4113B1CD841A400A8F86F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0DA4113E1CD841A400A8F86F /* Debug */ = {
@@ -263,8 +547,10 @@
 		};
 		0DA411411CD841A400A8F86F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9771AFF19A6B58EA6523B4 /* Pods-RoposoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RoposoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RoposoTest.RoposoTest;
@@ -274,8 +560,10 @@
 		};
 		0DA411421CD841A400A8F86F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CDD5CAE5B2A211971697B5 /* Pods-RoposoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RoposoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RoposoTest.RoposoTest;
@@ -302,6 +590,7 @@
 				0DA411421CD841A400A8F86F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

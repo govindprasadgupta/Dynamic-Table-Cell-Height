@@ -1,10 +1,11 @@
-//
-//  AppDelegate.h
-//  RoposoTest
-//
-//  Created by govind gupta on 5/3/16.
-//  Copyright © 2016 govind gupta. All rights reserved.
-//
+/**
+ *  AppDelegate.h
+ *  RoposoTest
+ *  Purpose: This class is called due to application.
+ *
+ *  Created by Govind Gupta on 5/3/16.
+ *  Copyright (c) 2016 Govind Gupta. All rights reserved.
+ */
 
 #import <UIKit/UIKit.h>
 

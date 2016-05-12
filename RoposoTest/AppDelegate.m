@@ -1,12 +1,17 @@
-//
-//  AppDelegate.m
-//  RoposoTest
-//
-//  Created by govind gupta on 5/3/16.
-//  Copyright © 2016 govind gupta. All rights reserved.
-//
+/**
+ *  AppDelegate.m
+ *  RoposoTest
+ *  Purpose: This class is called due to application.
+ *
+ *  Created by Govind Gupta on 5/3/16.
+ *  Copyright (c) 2016 Govind Gupta. All rights reserved.
+ */
 
 #import "AppDelegate.h"
+#import "StoryListViewController.h"
+#import "FileUtility.h"
+#import "FileConstant.h"
+#import "SDImageCache.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +21,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //1. Parsing Json
+    [FileUtility parseAndSaveInputJson];
+    
+    //2. Setting root controller
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    StoryListViewController *navRootController = [[StoryListViewController alloc] initWithNibName:STORY_LIST_CONTROLLER_NIB_NAME
+                                                                                           bundle:nil];
+    UINavigationController *rootController = [[UINavigationController alloc] initWithRootViewController:navRootController];
+    
+    self.window.rootViewController = rootController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
